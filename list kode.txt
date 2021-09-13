@@ -1,0 +1,6 @@
+0 = Kartu Tidak Terdaftar
+1 = Berhasil Absensi Keluar/Masuk/Berhasil Scan Kartu
+2 = Anda Belum Melakukan Absensi Masuk!
+3 = Maaf Anda Sudah Absen
+99 = Gagal Absensi
+100 = Masih dalam antrean
