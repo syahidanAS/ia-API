@@ -13,18 +13,18 @@ if ($sql_check->num_rows == 0) {
     $query = "INSERT INTO unregistered_uid (uid,created_at) VALUES ('$uid','$current_date')";
     $sql = mysqli_query($db_connect, $query);
 
-    var_dump($query);
+    // var_dump($query);
 
     $result = array();
 
     if ($sql) {
         // echo json_encode(array('message'=>'Berhasil scan kartu'));
-        echo "Berhasil Scan";
+        echo "BERHASIL\nSCAN";
     } else {
         // echo json_encode(array('message'=>'Gagal scan kartu!'));
-        echo "Gagal Scan";
+        echo "GAGAL\nSCAN";
     }
 } else {
     // echo json_encode(array('message'=>'Masih dalam antrean'));
-    echo "Dalam Antrean!";
+    echo "DALAM\nANTREAN!";
 }
